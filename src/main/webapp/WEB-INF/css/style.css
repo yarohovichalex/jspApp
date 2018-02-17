@@ -1,0 +1,52 @@
+@charset "UTF-8";
+header{
+    background: url(../images/header-bg.jpg) center center no-repeat; 
+    color: #fff; text-align: center; background-size: cover; 
+    padding: 135px 20px 90px 20px;
+}
+header>h1{
+	font-size: 3.75em; 
+	font-family: 'Raleway', sans-serif; 
+	margin-bottom: 25px;
+}
+header>h3{
+	font-size: 1.125em; 
+	font-family: 'Open Sans', sans-serif; 
+	margin-bottom: 50px; 
+	font-style: italic;
+}
+header>p{
+	font-size: 0.75em; 
+	font-family: 'Open Sans', sans-serif; 
+	margin-bottom: 50px; 	
+}
+.subscribe{
+	background: rgba(0,0,0,0.65);
+	display: table;
+	padding: 20px;
+	margin: 0 auto 10px auto; border-radius: 5px;
+}
+.subscribe input{
+	float:left;
+
+}
+.subscribe input[type="text"],  input[type="password"] {
+	padding: 0; 
+	border:0;
+	width: 320px;
+	margin-right: 10px;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 12px 20px 13px 20px;
+	box-sizing: border-box;
+}
+.subscribe input[type="submit"]{
+	background-color: #ae2c52;
+	border:0;
+	color: #fff;
+	font-size: 1.25em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	padding: 12px 35px;
+	cursor: pointer;
+}
